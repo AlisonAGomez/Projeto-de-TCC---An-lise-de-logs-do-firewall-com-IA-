@@ -1,24 +1,34 @@
+# =========================
 # Ambiente
+# =========================
 .venv/
 venv/
 
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
 
-# Dados
-data/*
+# =========================
+# Dados (ignora tudo, exceto .gitkeep)
+# =========================
+data/**
 !data/.gitkeep
 
-# Modelos
-models/*
+# =========================
+# Modelos (ignora tudo, exceto .gitkeep)
+# =========================
+models/**
 !models/.gitkeep
 
-# Relatórios
-reports/*
+# =========================
+# Relatórios (ignora tudo, exceto .gitkeep)
+# =========================
+reports/**
 !reports/.gitkeep
 
+# =========================
 # Arquivos pesados
+# =========================
 *.joblib
-*.csv
-*.json
