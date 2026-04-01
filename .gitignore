@@ -1,0 +1,24 @@
+# Ambiente
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Dados
+data/*
+!data/.gitkeep
+
+# Modelos
+models/*
+!models/.gitkeep
+
+# Relatórios
+reports/*
+!reports/.gitkeep
+
+# Arquivos pesados
+*.joblib
+*.csv
+*.json
