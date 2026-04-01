@@ -11,21 +11,28 @@ __pycache__/
 *.pyc
 
 # =========================
-# Dados (ignora tudo, exceto .gitkeep)
+# Dados (ignora tudo, exceto estrutura)
 # =========================
 data/**
+!data/
 !data/.gitkeep
+!data/raw/
+!data/raw/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
 
 # =========================
-# Modelos (ignora tudo, exceto .gitkeep)
+# Modelos
 # =========================
 models/**
+!models/
 !models/.gitkeep
 
 # =========================
-# Relatórios (ignora tudo, exceto .gitkeep)
+# Relatórios
 # =========================
 reports/**
+!reports/
 !reports/.gitkeep
 
 # =========================
